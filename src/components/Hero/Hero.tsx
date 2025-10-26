@@ -77,9 +77,11 @@ const Hero: React.FC = () => {
           
           <div className="hero-image">
             <div className="hero-avatar">
-              <div className="avatar-circle">
-                <i className="fas fa-user"></i>
-              </div>
+              <img 
+                src="/WhatsApp Image 2025-10-11 at 18.49.15_80f0167e.jpg" 
+                alt="Anuhya Ramisetty" 
+                className="avatar-image"
+              />
               <div className="floating-icons">
                 <div className="floating-icon" style={{'--delay': '0s'} as React.CSSProperties}><i className="fab fa-react"></i></div>
                 <div className="floating-icon" style={{'--delay': '1s'} as React.CSSProperties}><i className="fab fa-node-js"></i></div>
